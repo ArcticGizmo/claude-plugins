@@ -11,11 +11,11 @@
   },
   "plugins": [
     {
-      "name": "claude-watch",
-      "source": "./plugins/claude-watch",
-      "description": "Claude watch helpers to enable mode",
+      "name": "permission-state",
+      "source": "./plugins/permission-state",
+      "description": "Hooks to make permission state accessible to other processes",
       "version": "0.1.0",
-      "keywords": ["claude watch"]
+      "keywords": ["permission state", "claude-watch"]
     }
   ]
 }
