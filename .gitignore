@@ -21,3 +21,5 @@ Thumbs.db
 
 # AI
 .claude/
+
+*-debug.txt

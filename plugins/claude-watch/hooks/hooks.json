@@ -7,7 +7,18 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node ${CLAUDE_PLUGIN_ROOT}/hooks/example.js"
+            "command": "node ${CLAUDE_PLUGIN_ROOT}/hooks/set-permission-state.js"
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ${CLAUDE_PLUGIN_ROOT}/hooks/clear-permission-state.js"
           }
         ]
       }
