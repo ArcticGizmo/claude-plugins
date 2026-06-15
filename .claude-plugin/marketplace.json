@@ -1,0 +1,21 @@
+{
+  "name": "gg",
+  "owner": {
+    "name": "arcticgizmo"
+  },
+  "version": "1.0.0",
+  "description": "A collection off cluade related helpers I find useful",
+  "author": {
+    "name": "arcticgizmo",
+    "email": ""
+  },
+  "plugins": [
+    {
+      "name": "claude-watch",
+      "source": "./plugins/claude-watch",
+      "description": "Claude watch helpers to enable mode",
+      "version": "0.1.0",
+      "keywords": ["claude watch"]
+    }
+  ]
+}
