@@ -1,0 +1,21 @@
+{
+  "name": "gg",
+  "owner": {
+    "name": "arcticgizmo"
+  },
+  "version": "1.0.0",
+  "description": "A collection off cluade related helpers I find useful",
+  "author": {
+    "name": "arcticgizmo",
+    "email": ""
+  },
+  "plugins": [
+    {
+      "name": "permission-state",
+      "source": "./plugins/permission-state",
+      "description": "Hooks to make permission state accessible to other processes",
+      "version": "0.1.0",
+      "keywords": ["permission state", "claude-watch"]
+    }
+  ]
+}
