@@ -1,0 +1,10 @@
+{
+  "name": "windows-notification",
+  "version": "0.1.0",
+  "description": "Windows 11 toast notifications for Claude Code hook events",
+  "author": {
+    "name": "arcticgizmo",
+    "email": ""
+  },
+  "keywords": ["notification", "windows", "toast", "alert"]
+}

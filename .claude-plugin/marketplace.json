@@ -1,9 +1,9 @@
 {
-  "name": "gg",
+  "name": "ag",
   "owner": {
     "name": "arcticgizmo"
   },
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A collection off cluade related helpers I find useful",
   "author": {
     "name": "arcticgizmo",
@@ -16,6 +16,13 @@
       "description": "Hooks to make permission state accessible to other processes",
       "version": "0.1.0",
       "keywords": ["permission state", "claude-watch"]
+    },
+    {
+      "name": "windows-notification",
+      "source": "./plugins/windows-notification",
+      "description": "Windows 11 toast notifications for PermissionRequest, Stop, StopFailure, and Notification hooks",
+      "version": "0.1.0",
+      "keywords": ["notification", "windows", "toast", "alert"]
     }
   ]
 }
